@@ -1,0 +1,33 @@
+#skills {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#skills .section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#skills .divider {
+    margin-bottom: 60px;
+}
+
+#skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#skills h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

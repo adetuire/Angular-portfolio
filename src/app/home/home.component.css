@@ -1,0 +1,180 @@
+:host {
+    background-color: black;
+}
+
+
+/* .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+} */
+
+.homepage {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* .homepage h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+} */
+
+.homepage h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.homepage h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+/* .homepage p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+} */
+
+.homepage p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.homepage a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #232323;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.homepage a:hover {
+    background-color: #f5f5f5;
+}
+
+.homepage button {
+    background-color: #fff;
+    color: #232323;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.homepage button:hover {
+    background-color: #f5f5f5;
+}
+
+.homepage .hero-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.homepage .hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.homepage .cta {
+    margin-top: 3rem;
+}
+
+.homepage .cta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.homepage .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.homepage .cta button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.homepage .cta button:hover {
+    background-color: #555;
+}
+
+.homepage .services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.homepage .services .service {
+    flex: 1;
+    margin: 0 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.homepage .services .service:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.homepage .services .service h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.homepage .services .service p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.homepage .services .service button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.homepage .services .service button:hover {
+    background-color: #555;
+}
